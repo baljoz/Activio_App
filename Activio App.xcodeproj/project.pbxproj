@@ -14,6 +14,8 @@
 		0712964E1EC5F79F006A18F8 /* Activio_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0712964D1EC5F79F006A18F8 /* Activio_AppTests.swift */; };
 		071296591EC5F79F006A18F8 /* Activio_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071296581EC5F79F006A18F8 /* Activio_AppUITests.swift */; };
 		0712966A1EC5FDBE006A18F8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071296691EC5FDBE006A18F8 /* LoginViewController.swift */; };
+		0712966C1EC60BA2006A18F8 /* SelectTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0712966B1EC60BA2006A18F8 /* SelectTeamViewController.swift */; };
+		0712966E1EC60CF8006A18F8 /* DropMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0712966D1EC60CF8006A18F8 /* DropMenuButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		071296581EC5F79F006A18F8 /* Activio_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activio_AppUITests.swift; sourceTree = "<group>"; };
 		0712965A1EC5F79F006A18F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		071296691EC5FDBE006A18F8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0712966B1EC60BA2006A18F8 /* SelectTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectTeamViewController.swift; sourceTree = "<group>"; };
+		0712966D1EC60CF8006A18F8 /* DropMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropMenuButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				071296411EC5F79F006A18F8 /* LaunchScreen.storyboard */,
 				071296441EC5F79F006A18F8 /* Info.plist */,
 				071296681EC5FA65006A18F8 /* ViewControllers */,
+				0712966D1EC60CF8006A18F8 /* DropMenuButton.swift */,
 			);
 			path = "Activio App";
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				071296691EC5FDBE006A18F8 /* LoginViewController.swift */,
+				0712966B1EC60BA2006A18F8 /* SelectTeamViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -267,6 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0712966C1EC60BA2006A18F8 /* SelectTeamViewController.swift in Sources */,
+				0712966E1EC60CF8006A18F8 /* DropMenuButton.swift in Sources */,
 				0712966A1EC5FDBE006A18F8 /* LoginViewController.swift in Sources */,
 				071296391EC5F79F006A18F8 /* AppDelegate.swift in Sources */,
 			);

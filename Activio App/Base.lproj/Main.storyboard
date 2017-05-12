@@ -24,11 +24,11 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Evc-yg-k52">
                                 <rect key="frame" x="287" y="417" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Login">
-                                    <color key="titleColor" white="0.17037491499999999" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="clickLogin:" destination="g11-MF-uNF" eventType="touchUpInside" id="G89-WY-Gw1"/>
+                                    <segue destination="lzk-M0-UeW" kind="show" id="dvj-f4-Kus"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zRB-ZV-ttS">
@@ -74,6 +74,39 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HkE-aS-SH5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="253.59999999999999" y="-526.6866566716642"/>
+        </scene>
+        <!--Select Team View Controller-->
+        <scene sceneID="B9o-3N-jox">
+            <objects>
+                <viewController id="lzk-M0-UeW" customClass="SelectTeamViewController" customModule="Activio_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kHW-49-9tL"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rs0-mq-lJX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LxE-YC-OCB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hzx-OA-G6f" customClass="DropMenuButton" customModule="Activio_App" customModuleProvider="target">
+                                <rect key="frame" x="76" y="186" width="223" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="SELECT TEAM">
+                                    <color key="titleColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectTeam:" destination="lzk-M0-UeW" eventType="touchUpInside" id="E4m-4O-6g1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="selectTeamButton" destination="hzx-OA-G6f" id="c8E-Zt-03f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zew-aV-2y9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1172" y="-526.6866566716642"/>
         </scene>
     </scenes>
 </document>
