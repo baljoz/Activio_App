@@ -16,6 +16,17 @@
 		0712966A1EC5FDBE006A18F8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071296691EC5FDBE006A18F8 /* LoginViewController.swift */; };
 		0712966C1EC60BA2006A18F8 /* SelectTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0712966B1EC60BA2006A18F8 /* SelectTeamViewController.swift */; };
 		0712966E1EC60CF8006A18F8 /* DropMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0712966D1EC60CF8006A18F8 /* DropMenuButton.swift */; };
+		071296741EC614CA006A18F8 /* TraningPlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071296731EC614CA006A18F8 /* TraningPlayerTableViewCell.swift */; };
+		071296761EC615C8006A18F8 /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071296751EC615C8006A18F8 /* TrainingViewController.swift */; };
+		071296781EC61CCD006A18F8 /* StopTrainingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071296771EC61CCD006A18F8 /* StopTrainingTableViewCell.swift */; };
+		0712967A1EC61D50006A18F8 /* StopTrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071296791EC61D50006A18F8 /* StopTrainingViewController.swift */; };
+		07483D4F1EDC7022000FE16A /* BluetothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07483D4E1EDC7022000FE16A /* BluetothViewController.swift */; };
+		075548231EDD8708001587F6 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075548221EDD8708001587F6 /* IntentHandler.swift */; };
+		075548291EDDA005001587F6 /* SQLDataIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075548281EDDA005001587F6 /* SQLDataIO.swift */; };
+		0755482B1EDDA048001587F6 /* SQLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755482A1EDDA048001587F6 /* SQLViewController.swift */; };
+		079718061ECC54D8006AF669 /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079718051ECC54D8006AF669 /* Players.swift */; };
+		079A385B1EC99DBD008641BC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 079A385A1EC99DBD008641BC /* libsqlite3.tbd */; };
+		079A38681EC9DDEE008641BC /* AddToDatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079A38671EC9DDEE008641BC /* AddToDatabaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,21 @@
 		071296691EC5FDBE006A18F8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0712966B1EC60BA2006A18F8 /* SelectTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectTeamViewController.swift; sourceTree = "<group>"; };
 		0712966D1EC60CF8006A18F8 /* DropMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropMenuButton.swift; sourceTree = "<group>"; };
+		071296731EC614CA006A18F8 /* TraningPlayerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraningPlayerTableViewCell.swift; sourceTree = "<group>"; };
+		071296751EC615C8006A18F8 /* TrainingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
+		071296771EC61CCD006A18F8 /* StopTrainingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopTrainingTableViewCell.swift; sourceTree = "<group>"; };
+		071296791EC61D50006A18F8 /* StopTrainingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopTrainingViewController.swift; sourceTree = "<group>"; };
+		07483D4E1EDC7022000FE16A /* BluetothViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetothViewController.swift; sourceTree = "<group>"; };
+		075548201EDD8707001587F6 /* watch.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = watch.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		075548221EDD8708001587F6 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		075548241EDD8708001587F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		075548281EDDA005001587F6 /* SQLDataIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLDataIO.swift; sourceTree = "<group>"; };
+		0755482A1EDDA048001587F6 /* SQLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLViewController.swift; sourceTree = "<group>"; };
+		079718051ECC54D8006AF669 /* Players.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
+		079A38571EC998B0008641BC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		079A38591EC99BB3008641BC /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		079A385A1EC99DBD008641BC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		079A38671EC9DDEE008641BC /* AddToDatabaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToDatabaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				079A385B1EC99DBD008641BC /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,16 +102,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0755481D1EDD8707001587F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0712962C1EC5F79F006A18F8 = {
 			isa = PBXGroup;
 			children = (
+				0755482A1EDDA048001587F6 /* SQLViewController.swift */,
+				075548281EDDA005001587F6 /* SQLDataIO.swift */,
+				07483D4E1EDC7022000FE16A /* BluetothViewController.swift */,
+				079718051ECC54D8006AF669 /* Players.swift */,
+				079A38671EC9DDEE008641BC /* AddToDatabaseViewController.swift */,
+				079A38591EC99BB3008641BC /* BridgingHeader.h */,
 				071296371EC5F79F006A18F8 /* Activio App */,
 				0712964C1EC5F79F006A18F8 /* Activio AppTests */,
 				071296571EC5F79F006A18F8 /* Activio AppUITests */,
+				075548211EDD8708001587F6 /* watch */,
 				071296361EC5F79F006A18F8 /* Products */,
+				079A38561EC998B0008641BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +136,7 @@
 				071296351EC5F79F006A18F8 /* Activio App.app */,
 				071296491EC5F79F006A18F8 /* Activio AppTests.xctest */,
 				071296541EC5F79F006A18F8 /* Activio AppUITests.xctest */,
+				075548201EDD8707001587F6 /* watch.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +144,7 @@
 		071296371EC5F79F006A18F8 /* Activio App */ = {
 			isa = PBXGroup;
 			children = (
+				071296721EC614A9006A18F8 /* TableViewCell */,
 				071296381EC5F79F006A18F8 /* AppDelegate.swift */,
 				0712963C1EC5F79F006A18F8 /* Main.storyboard */,
 				0712963F1EC5F79F006A18F8 /* Assets.xcassets */,
@@ -135,8 +179,37 @@
 			children = (
 				071296691EC5FDBE006A18F8 /* LoginViewController.swift */,
 				0712966B1EC60BA2006A18F8 /* SelectTeamViewController.swift */,
+				071296751EC615C8006A18F8 /* TrainingViewController.swift */,
+				071296791EC61D50006A18F8 /* StopTrainingViewController.swift */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		071296721EC614A9006A18F8 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				071296731EC614CA006A18F8 /* TraningPlayerTableViewCell.swift */,
+				071296771EC61CCD006A18F8 /* StopTrainingTableViewCell.swift */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		075548211EDD8708001587F6 /* watch */ = {
+			isa = PBXGroup;
+			children = (
+				075548221EDD8708001587F6 /* IntentHandler.swift */,
+				075548241EDD8708001587F6 /* Info.plist */,
+			);
+			path = watch;
+			sourceTree = "<group>";
+		};
+		079A38561EC998B0008641BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				079A385A1EC99DBD008641BC /* libsqlite3.tbd */,
+				079A38571EC998B0008641BC /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +268,23 @@
 			productReference = 071296541EC5F79F006A18F8 /* Activio AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		0755481F1EDD8707001587F6 /* watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075548271EDD8708001587F6 /* Build configuration list for PBXNativeTarget "watch" */;
+			buildPhases = (
+				0755481C1EDD8707001587F6 /* Sources */,
+				0755481D1EDD8707001587F6 /* Frameworks */,
+				0755481E1EDD8707001587F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = watch;
+			productName = watch;
+			productReference = 075548201EDD8707001587F6 /* watch.appex */;
+			productType = "com.apple.product-type.app-extension.intents-service";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,7 +297,8 @@
 				TargetAttributes = {
 					071296341EC5F79F006A18F8 = {
 						CreatedOnToolsVersion = 8.3.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = CE8AYP9GM3;
+						ProvisioningStyle = Manual;
 					};
 					071296481EC5F79F006A18F8 = {
 						CreatedOnToolsVersion = 8.3.1;
@@ -218,6 +309,11 @@
 						CreatedOnToolsVersion = 8.3.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 071296341EC5F79F006A18F8;
+					};
+					0755481F1EDD8707001587F6 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = CE8AYP9GM3;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -237,6 +333,7 @@
 				071296341EC5F79F006A18F8 /* Activio App */,
 				071296481EC5F79F006A18F8 /* Activio AppTests */,
 				071296531EC5F79F006A18F8 /* Activio AppUITests */,
+				0755481F1EDD8707001587F6 /* watch */,
 			);
 		};
 /* End PBXProject section */
@@ -266,6 +363,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0755481E1EDD8707001587F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -273,10 +377,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				079718061ECC54D8006AF669 /* Players.swift in Sources */,
+				0712967A1EC61D50006A18F8 /* StopTrainingViewController.swift in Sources */,
+				071296761EC615C8006A18F8 /* TrainingViewController.swift in Sources */,
 				0712966C1EC60BA2006A18F8 /* SelectTeamViewController.swift in Sources */,
+				07483D4F1EDC7022000FE16A /* BluetothViewController.swift in Sources */,
 				0712966E1EC60CF8006A18F8 /* DropMenuButton.swift in Sources */,
+				0755482B1EDDA048001587F6 /* SQLViewController.swift in Sources */,
 				0712966A1EC5FDBE006A18F8 /* LoginViewController.swift in Sources */,
 				071296391EC5F79F006A18F8 /* AppDelegate.swift in Sources */,
+				071296781EC61CCD006A18F8 /* StopTrainingTableViewCell.swift in Sources */,
+				071296741EC614CA006A18F8 /* TraningPlayerTableViewCell.swift in Sources */,
+				075548291EDDA005001587F6 /* SQLDataIO.swift in Sources */,
+				079A38681EC9DDEE008641BC /* AddToDatabaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +406,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				071296591EC5F79F006A18F8 /* Activio_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0755481C1EDD8707001587F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075548231EDD8708001587F6 /* IntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +493,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -417,7 +538,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -430,11 +551,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CE8AYP9GM3;
 				INFOPLIST_FILE = "Activio App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gamecredits.Activio-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "75aeba5e-11cb-4743-96d5-46a474148f2f";
+				PROVISIONING_PROFILE_SPECIFIER = iOSDevelopment;
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = BridgingHeader.h;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -442,11 +570,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CE8AYP9GM3;
 				INFOPLIST_FILE = "Activio App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gamecredits.Activio-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "75aeba5e-11cb-4743-96d5-46a474148f2f";
+				PROVISIONING_PROFILE_SPECIFIER = iOSDevelopment;
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = BridgingHeader.h;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -504,6 +639,42 @@
 			};
 			name = Release;
 		};
+		075548251EDD8708001587F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CE8AYP9GM3;
+				INFOPLIST_FILE = watch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamecredits.watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "75aeba5e-11cb-4743-96d5-46a474148f2f";
+				PROVISIONING_PROFILE_SPECIFIER = iOSDevelopment;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		075548261EDD8708001587F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CE8AYP9GM3;
+				INFOPLIST_FILE = watch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamecredits.watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "75aeba5e-11cb-4743-96d5-46a474148f2f";
+				PROVISIONING_PROFILE_SPECIFIER = iOSDevelopment;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -523,6 +694,7 @@
 				0712965F1EC5F79F006A18F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		071296601EC5F79F006A18F8 /* Build configuration list for PBXNativeTarget "Activio AppTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +703,7 @@
 				071296621EC5F79F006A18F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		071296631EC5F79F006A18F8 /* Build configuration list for PBXNativeTarget "Activio AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +712,16 @@
 				071296651EC5F79F006A18F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075548271EDD8708001587F6 /* Build configuration list for PBXNativeTarget "watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075548251EDD8708001587F6 /* Debug */,
+				075548261EDD8708001587F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
